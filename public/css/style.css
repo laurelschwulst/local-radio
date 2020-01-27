@@ -1,18 +1,13 @@
-@font-face {
-  font-family: Folio;
-  src: url(/fonts/folio.woff);
-}
-
 * { box-sizing: border-box; }
 
 ::selection {
-    color: red;
+    color: #3F72F5;
     background-color: none;
 }
 
-html, body, .Main { 
+html, body, .Main {
     height: 100%;
-    font-family: Folio;
+    font-family: serif;
 }
 
 body {
@@ -65,15 +60,15 @@ select:disabled {
 }
 
 .StreamButton {
-    border: 1px solid red;
-    color: red;
+    border: 1px solid #3F72F5;
+    color: #3F72F5;
     text-decoration: none;
     border-radius: 5px;
     padding: 0.35em 0.5em 0.15em;
 }
 
 .StreamButton:not(:disabled):hover {
-    background-color: red;
+    background-color: #3F72F5;
     color: white;
 }
 
@@ -150,7 +145,7 @@ ul li a::before {
 }
 
 .Header-link:hover {
-    background-color: red;
+    background-color: #3F72F5;
 }
 
 .Main--new .Header-titleSpan--stream  {
@@ -168,7 +163,7 @@ ul li a::before {
 }
 
 .Main--new.is-active {
-    background-color: red;
+    background-color: #3F72F5;
 }
 
 .Main--new.is-active select:disabled {
@@ -183,7 +178,7 @@ ul li a::before {
     border-color: white;
 }
 .Main--new.is-active .StreamButton:hover {
-    color: red;
+    color: #3F72F5;
     background-color: white;
 }
 
