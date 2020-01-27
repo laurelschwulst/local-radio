@@ -1,2 +1,2 @@
 #!/bin/bash
-icecast -c icecast.xml
+icecast2 -c icecast.xml
